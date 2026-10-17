@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.117.0](https://github.com/bpg/terraform-provider-proxmox/compare/v0.116.1...v0.117.0) (2026-10-17)
+
+
+### Features
+
+* **provider:** run root@pam-only API calls with a ticket minted over SSH ([#3181](https://github.com/bpg/terraform-provider-proxmox/issues/3181)) ([6fba7a8](https://github.com/bpg/terraform-provider-proxmox/commit/6fba7a83255ac097cd8d80c65edfbe09fefe5685))
+* **vm:** add custom CPU model resource ([#3167](https://github.com/bpg/terraform-provider-proxmox/issues/3167)) ([a16e9ad](https://github.com/bpg/terraform-provider-proxmox/commit/a16e9ad23eec816a858841b66c780e5d960968cb))
+
+
+### Bug Fixes
+
+* **apt:** never leave standard repository file_path unknown after create ([#3165](https://github.com/bpg/terraform-provider-proxmox/issues/3165)) ([4bded29](https://github.com/bpg/terraform-provider-proxmox/commit/4bded2972403a553eaaa3f65b40625275b02d1e2))
+* **lxc:** don't send user_account to the post-clone config update ([#3161](https://github.com/bpg/terraform-provider-proxmox/issues/3161)) ([a953d6e](https://github.com/bpg/terraform-provider-proxmox/commit/a953d6e9b1d7b64ebd0193ef05b56a8b818891f6))
+* **provider:** mask credentials in debug HTTP logs ([#3180](https://github.com/bpg/terraform-provider-proxmox/issues/3180)) ([b78f56b](https://github.com/bpg/terraform-provider-proxmox/commit/b78f56b89995804730c2540d62bb1fc5320dcd4d))
+* **vm:** allow resizing and moving disks with non-standard volume names ([#3184](https://github.com/bpg/terraform-provider-proxmox/issues/3184)) ([83ce719](https://github.com/bpg/terraform-provider-proxmox/commit/83ce7197f0c3f940601740b68d335d7b81574897))
+* **vm:** clear template cloud-init custom files on clone ([#3163](https://github.com/bpg/terraform-provider-proxmox/issues/3163)) ([b0f2af6](https://github.com/bpg/terraform-provider-proxmox/commit/b0f2af6d55ed926fe48d4166ac489acb5d5608c4))
+
 ## [0.116.1](https://github.com/bpg/terraform-provider-proxmox/compare/v0.116.0...v0.116.1) (2026-10-15)
 
 
